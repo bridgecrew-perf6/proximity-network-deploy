@@ -1,0 +1,147 @@
+
+.from-profile{
+    background-color: #ffff;
+    margin-top: 30px;
+    padding:40px;
+    box-shadow: rgb(196 196 196 / 8%) 1px 1px 4px 3px, rgb(0 0 0 / 25%) 0px 2px 7px 0px;
+}
+.from-profile .formulario-usuario input{
+    border-radius: 5px;
+    border: 2px solid #cac9c9;
+}
+.from-profile .formulario-usuario label{
+    font-size: clamp(16px,3vw,20px);
+    font-weight: 600;
+}
+.from-profile .formulario-usuario span{
+    font-size: clamp(18px, 5vw,24px);
+    color:#FF0000;
+}
+.text-from-description{
+    border-radius: 5px;
+    border: 2px solid #cac9c9;
+}
+.btn-formulario{
+    background: #81B03E;
+    border: unset;
+    border-radius: 22px;
+    font-size: clamp(14px,3vw,20px);
+    font-weight: 700;
+    width: clamp(200px,10vw,300px);
+    transition: all ease .8s;
+    margin-top: 20px;
+}
+.formulario-check-edit{
+    font-size:clamp(12px,3vw,20px);
+    margin-bottom: 20px;
+}
+.form-check-input:checked {
+    background-color: #81b03e;
+    border-color: #81b03e;
+}
+button:focus:not(:focus-visible) {
+    outline: unset;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: unset;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #81B03E;
+    border-color: unset;
+    box-shadow: unset;
+}
+.btn-formulario:hover{
+    background: #648536;
+}
+.btn-formulario-reset:hover{
+    background-color: #648536;
+}
+.icon-img-form{
+    color: #91BA56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: clamp(80px,10vw,250px);
+    font-size: clamp(38px,3vw,50px);
+    border: 2px solid #91BA56;
+    padding-top: clamp(5px,1vw,1px);
+    padding-bottom: clamp(5px,1vw,1px);
+    padding-left: clamp(8px,1vw,8px);
+    padding-right: clamp(8px,1vw,8px);
+    border-radius: 10px;
+    transition: all ease .8s;
+    cursor: pointer;
+}
+.icon-img-form:hover{
+    background-color: #81B03E;
+    color: #fff;
+}
+.toast-custom {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #363636;
+    line-height: 1.3;
+    will-change: transform;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%), 0 3px 3px rgb(0 0 0 / 5%);
+    max-width: 350px;
+    pointer-events: auto;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.iconsize{
+    font-size:50px
+}
+.formulario-usuario .formulario-address .form-label{
+    font-size:clamp(14px,3vw,16px);
+    color:#484747;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #6e6e6e;
+    border-color: #6e6e6e;
+}
+.form-check-input:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.button-loading-user{
+    font-size:22px;
+    padding:20px 110px;
+    border-radius:8px;
+    color: white;
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+@media(min-width:992px){
+
+.title-content-profile{
+        margin-top: 80px;
+}
+.from-profile{
+        padding:100px;
+        margin-top: 50px;
+}
+.from-profile .formulario-usuario input{
+    height: 55px;
+}
+.form-control{
+    width: 100%;
+}
+.formulario-usuario .form-label{
+    text-align: end;
+    padding-right: 50px;
+}
+.from-profile .form-switch{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom:50px;
+}
+}
+
